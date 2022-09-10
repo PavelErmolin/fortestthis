@@ -1,7 +1,6 @@
 import java.util.List;
-// Свойства не для сортировки
+// Свойства
 public class Feature {
     String name;
-    List<String> values;
 }
 

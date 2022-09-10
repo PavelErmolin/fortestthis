@@ -5,7 +5,6 @@ public class Product {
     float price;  // Текущая стоимость товара
     String pic;   // Изображение
     String description;  //Описание
-    List<Feature> featureList; // Свойства не для сортировки
-    List<Properties> propertiesList;  // Свойства для сортировки
-
+    List<Feature> featuresNotForFilter; // Свойства не для сортировки
+    List<Feature> featuresForFilter;  // Свойства для сортировки
 }

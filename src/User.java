@@ -6,4 +6,6 @@ public class User {
     String pass;   // Пароль
     String FIO; // ФИО
     Date DOB; // Дата рождения
+    boolean active; // состояние( активен / забанен)
+    // Также нужно будет хранить роль
 }
